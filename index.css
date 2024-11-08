@@ -103,3 +103,7 @@ hr{
     display: none;
     overflow: hidden;
   }
+
+  .text-justify {
+    text-align: justify;
+}
