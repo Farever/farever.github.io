@@ -1,0 +1,95 @@
+{
+    "Carousel" :
+    [
+        {
+            "id" : 1,
+            "title" : "Ágazati alapoktatási tárgyak",
+            "technologiak" : ["Virtual Box", "CISCO Packet Tracer", "Crocclip"],
+            "targyak" : ["Számítógépes hardverismeret", "Számítógépes virtualizáció", "Számítógép-hálózatok", "Szf. elektronika", "Linux alap- és haladó ismeretek"]
+        },
+
+        {
+            "id" : 2,
+            "title" : "Programnyelvek",
+            "technologiak" : ["Python", "C#", "Kotlin", ".NET", "Selenium" , "Microbit", "Lego robot"],
+            "targyak" : ["Programozási alapok", "Asztali alkalmazások fejlesztése és tesztelése", "Mobilalkalmazások fejlesztése"]
+        },
+
+        {
+            "id" : 3,
+            "title" : "Webfejlesztés",
+            "technologiak" : ["HTML", "JavaScript", "CSS", "PHP", "React", "Laravel", "Joomla", "NodeJS", "Selenium", "JEST", "Cypress"],
+            "targyak" : ["Webprogramozási alapok", "Webprogramozás", "Frontend programozás és tesztelés", "Backend programozás és tesztelés"]
+        },
+
+        {
+            "id" : 4,
+            "title" : "Adatbázis",
+            "technologiak" : ["MySQL", "MariaDB", "XAMPP", "MSSQL"],
+            "targyak" : ["Adatbáziskezelés I. és II."]
+        },
+
+        {
+            "id" : 5,
+            "title" : "Projektmunka",
+            "technologiak" : ["GitHub", "Visual Studio Code", "Google Space", "Trello"],
+            "targyak" : ["Szoftverprojektek", "Webkliens projektmunka"]
+        }
+    ],
+
+    "Accordion" :
+    {
+        "versenyek" : 
+        [
+            {
+                "id" : 1,
+                "nev" : "Harcode",
+                "fajta" : "Helyi",
+                "rendezok" : "VSZC Ipari Technikum"
+            },
+
+            {
+                "id" : 2,
+                "nev" : "Bakonyi Bitfaragó Bajnokság",
+                "fajta" : "Országos",
+                "rendezok" : " Pannon Egyetem, Műszaki Informatikai Kar"
+            },
+
+            {
+                "id" : 3,
+                "nev" : "OSZTV",
+                "fajta" : "Országos",
+                "rendezok" : "Nemzeti Agrárgazdasági Kamara"
+            },
+
+            {
+                "id" : 4,
+                "nev" : "Szeresd a pingvint!",
+                "fajta" : "Országos",
+                "rendezok" : "Békéscsabai SZC Nemes Tihamér Technikum és Kollégium"
+            },
+
+            {
+                "id" : 5,
+                "nev" : "Neumann, Nemzetközi Tehetségkutató Programtermék Verseny",
+                "fajta" : "Országos"  ,
+                "rendezok" : "Szekszárdi I. Béla Gimnázium, Kollégium, és Általános Iskola"
+            }
+        ],
+
+        "tanulmanyiInformaciok" : 
+        {
+            "nyelvek" : "angol",
+            "termeszetTudomany" : [
+                "Biológia", "Fizika" , "Földrajz"
+            ],
+            "humanSav13": [
+                "Matematika","Földrajz (térinformatika)",
+                "Történelem","Digitális kultúra","Kémia", "Földrajz",
+                "Biológia" , "Magyar nyelv és irodalom"
+            ]
+        }
+
+
+    }
+}
