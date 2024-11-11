@@ -6,7 +6,11 @@ body, html {
     overflow-x: hidden;
     font-family: "Poppins", sans-serif;
     margin: auto;
-    /*background-color: #fef3e2;*/
+    /*background-color: #fef3e2 */;
+}
+
+p{
+    text-align: justify;
 }
 
 h3 {
@@ -29,8 +33,8 @@ h3 {
 }
 
 hr{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .card-container {
@@ -92,7 +96,7 @@ hr{
     outline: none;
     transition: 0.4s;
     width: 100% !important;
-    padding-bottom: 18px;
+    padding-bottom: 8px;
   }
 
   
@@ -106,4 +110,8 @@ hr{
 
   .text-justify {
     text-align: justify;
+}
+
+.felszereltsegKepek{
+    text-align: center;
 }

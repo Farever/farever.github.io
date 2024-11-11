@@ -5,7 +5,7 @@
             "id" : 1,
             "title" : "Ágazati alapoktatási tárgyak",
             "technologiak" : ["Virtual Box", "CISCO Packet Tracer", "Crocclip"],
-            "targyak" : ["Számítógépes hardverismeret", "Számítógépes virtualizáció", "Számítógép-hálózatok", "Szf. elektronika", "Linux alap- és haladó ismeretek"]
+            "targyak" : ["Számítógépes hardverismeret", "Számítógépes virtualizáció", "Számítógép-hálózatok", "Szf. elektronika", "Linux alap- és haladó ismeretek", "Python", "HTML", "CSS"]
         },
 
         {
