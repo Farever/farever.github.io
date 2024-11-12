@@ -27,7 +27,7 @@
                 </div>
                 <div class="modal-body" id="modalBody"></div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Bezárás</button>
                 </div>
             </div>
         </div>
@@ -114,6 +114,7 @@
                             </div>
                         </div>
                     </div>
+                    <!--data-bs-slide="prev" | data-bs-slide="next"--->
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
                         data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -141,8 +142,8 @@
                         </div>
                         <div class="content d-flex flex-column align-items-center justify-content-center">
                             <div class="text-white text-start">
-                                <h3 class="text-center fs-5">Ágazati alapvizsga</h3>
-                                <p class="text-center fs-6">10. évfolyam</p>
+                                <h3 class="text-center">Ágazati alapvizsga</h3>
+                                <p class="text-center">10. évfolyam</p>
                                     <ul>
                                         <li>
                                             Interaktív teszt (30 pont, 30 perc, 10%)
@@ -155,8 +156,8 @@
                                             </ul>
                                         </li>
                                     </ul>
-                                    <p class="fs-6">40% elérése részenként kötelező</p>
-                                    <p class="fs-6">10% beleszámít a szakmai vizsgába</p>
+                                    <p>40% elérése részenként kötelező</p>
+                                    <p>10% beleszámít a szakmai vizsgába</p>
                             </div>
                         </div>
                     </div>
@@ -171,8 +172,8 @@
                         </div>
                         <div class="content d-flex flex-column">
                             <div class="text-white text-start">
-                                <h3 class="text-center fs-5">Szakmai vizsga</h3>
-                                <p class="text-center fs-6">13. évfolyam</p>
+                                <h3 class="text-center">Szakmai vizsga</h3>
+                                <p class="text-center">13. évfolyam</p>
                                 <ul>
                                     <li>
                                         Interaktív vizsga (40 pont, 45 perc, 10%)
@@ -203,9 +204,9 @@
                         </div>
                         <div class="content d-flex flex-column align-items-center justify-content-center">
                             <div>
-                                <h3 class="text-white fs-5">Cisco CCNA</h3>
+                                <h3 class="text-white">Cisco CCNA</h3>
                                 <p >
-                                    <ul class="fs-6 text-white text-start">
+                                    <ul class="text-white text-start">
                                         <li>Minősített hálózati munkatárs végzettség</li>
                                         <li>Tanfolyan díja jóval a piaci ár alatt</li>
                                         <li>11.-13. évfolyamra járó tanulók számára</li>
@@ -228,8 +229,8 @@
                         </div>
                         <div class="content d-flex flex-column align-items-center justify-content-center">
                             <div>
-                                <h3 class="text-white fs-5">Okleveles technikus</h3>
-                                <p class="fs-6 text-white text-justify">A felsőoktatási intézménnyel közösen kidolgozott szakmai program alapján folytatott, emelt szintű szakmai tudást biztosító képzés azoknak a jó tanulmányi eredménnyel rendelkező tanulóknak ajánlott, akik tudatosan szeretnék építeni jövőjüket. A tanulók a képzés megfelelő tanulmányi eredménnyel történt teljesítését követően egyenes úton, már megszerzett kreditekkel ( max 30) juthatnak be az adott egyetem szakirányú képzésébe.</p>
+                                <h3 class="text-white">Okleveles technikus</h3>
+                                <p class="text-white text-justify">A Pannon Egyetemmel közösen kidolgozott szakmai program alapján folytatott, emelt szintű szakmai tudást biztosító képzés azoknak a jó tanulmányi eredménnyel rendelkező tanulóknak ajánlott, akik tudatosan szeretnék építeni jövőjüket. A tanulók a képzés megfelelő tanulmányi eredménnyel történt teljesítését követően egyenes úton, már megszerzett kreditekkel ( max 30) juthatnak be az adott egyetem szakirányú képzésébe.</p>
                             </div>
                         </div>
                     </div>
@@ -243,8 +244,8 @@
                 <div class="accordion  accordion-flush" id="accordions">
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#statCollapse" aria-expanded="true" aria-controls="statCollapse">
+                        <!-- data-bs-target="#statCollapse" -->
+                            <button class="accordion-button collapsed" type="button" data-bs-target="#statCollapse" data-bs-toggle="collapse" aria-expanded="true" aria-controls="statCollapse">
                                 Statisztikai információk
                             </button>
                         </h2>
@@ -311,8 +312,8 @@
     
                     <div class="accordion-item" id="versenyek">
                         <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#versenyCollapse" aria-expanded="true" aria-controls="versenyCollapse">
+                            <!--data-bs-target="#versenyCollapse"-->
+                            <button class="accordion-button collapsed" data-bs-target="#versenyCollapse" type="button" aria-expanded="true" data-bs-toggle="collapse" aria-controls="versenyCollapse">
                                 Versenyek
                             </button>
                         </h2>
@@ -325,8 +326,8 @@
     
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#tanulmanyCollapse" aria-expanded="true" aria-controls="tanulmanyCollapse">
+                            <!--data-bs-target="#tanulmanyCollapse-->
+                            <button class="accordion-button collapsed" data-bs-target="#tanulmanyCollapse" type="button" aria-expanded="true" data-bs-toggle="collapse" aria-controls="tanulmanyCollapse">
                                 Tanulmányi információk
                             </button>
                         </h2>
@@ -339,7 +340,7 @@
                                         <th scope="col">13. évfolyam</th>
                                     </tr>
                                     <tr>                    
-                                        <td scope="row">Előrehozott érettségi [matematika, magyar, történlem]</td>
+                                        <td scope="row">Előrehozott érettségi [matematika, magyar, történelem]</td>
                                         <td>Szakmai vizsga (emelt szintű érettséginek felel meg), érettségi vizsga idegennyelvből, 10 közismereti óra (4 választható)</td>
                                     </tr>
                                 </table>

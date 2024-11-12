@@ -56,6 +56,7 @@
     transform: rotateY(180deg);
 }
 
+
 .container .box:hover .body{
     transform: rotateY(180deg);
 }
@@ -91,4 +92,38 @@
     text-decoration: none !important;
   }
 
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container .box {
+        width: 90%;
+        min-width: 320px;
+        height: 400px;
+        margin: 10px;
+    }
 
+    .container .box .body .content {
+        font-size: 0.9em !important;
+        padding: 10px;
+    }
+
+    .container .box .body .content div h3 {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .container .box {
+        width: 80%;
+        min-width: 320px;
+        height: 400px;
+    }
+
+    .container .box .body .content {
+        font-size: 0.8em !important;
+        padding: 8px;
+    }
+
+    .container .box .body .content div h3 {
+        font-size: 0.9em !important;
+    }
+}

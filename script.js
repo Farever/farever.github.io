@@ -39,12 +39,6 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
-function flipCard(button) {
-  console.log("asd");
-  const card = button.closest('.flip-card');
-  card.classList.toggle('flipped');
-}
-
 function showModal(btnId){
   for (const dia of adatok.Carousel) {
     if(dia["id"] == btnId) {
@@ -55,31 +49,18 @@ function showModal(btnId){
 
 
   var modal = new bootstrap.Modal(document.getElementById('modal'));
+  //modal.show();
   modal.show();
 }
 
-document.getElementById("carouselBtn1").addEventListener('click', () => {
-    showModal(1);
-})
 
-document.getElementById("carouselBtn2").addEventListener('click', () => {
-  showModal(2);
-})
+let buttons = document.querySelectorAll("button.btn-warning");
 
-document.getElementById("carouselBtn3").addEventListener('click', () => {
-  showModal(3);
-})
-
-document.getElementById("carouselBtn4").addEventListener('click', () => {
-  showModal(4);
-})
-
-document.getElementById("carouselBtn5").addEventListener('click', () => {
-  showModal(5);
-})
-
-for (let i of document.getElementsByClassName("flipbutton")) {
-  i.addEventListener("click", () => {flipCard(i)});
+for(let i = 1; i <= buttons.length; i++)
+{
+  buttons[i-1].addEventListener("click", () => {
+    showModal(i);
+  })
 }
 
 window.addEventListener("load", () => {
