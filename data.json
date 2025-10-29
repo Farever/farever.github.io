@@ -40,35 +40,32 @@
     "Accordion" :
     {
         "versenyek" : 
-        [
+        [  
             {
                 "id" : 1,
-                "nev" : "Hardcode",
-                "fajta" : "Helyi",
-                "rendezok" : "VSZC Ipari Technikum"
+                "nev" : "Országos Szakmai Tanulmányi Verseny",
+                "fajta" : "Országos",
+                "rendezok" : "Magyar Kereskedelmi és Iparkamara"
             },
 
             {
                 "id" : 2,
-                "nev" : "Bakonyi Bitfaragó Bajnokság",
-                "fajta" : "Országos",
-                "rendezok" : " Pannon Egyetem, Műszaki Informatikai Kar"
-            },
-
-            {
-                "id" : 3,
-                "nev" : "OSZTV",
-                "fajta" : "Országos",
-                "rendezok" : "Nemzeti Agrárgazdasági Kamara"
-            },
-
-            {
-                "id" : 4,
                 "nev" : "Szeresd a pingvint!",
                 "fajta" : "Országos",
                 "rendezok" : "Békéscsabai SZC Nemes Tihamér Technikum és Kollégium"
             },
-
+            {
+                "id" : 3,
+                "nev" : "Skills Junior",
+                "fajta" : "Országos",
+                "rendezok" : "Magyar Kereskedelmi és Iparkamara, Kulturális és Innovációs Minisztérium"
+            },
+            {
+                "id" : 4,
+                "nev" : "Bakonyi Bitfaragó Bajnokság",
+                "fajta" : "Országos",
+                "rendezok" : " Pannon Egyetem, Műszaki Informatikai Kar"
+            },
             {
                 "id" : 5,
                 "nev" : "Neumann, Nemzetközi Tehetségkutató Programtermék Verseny",
