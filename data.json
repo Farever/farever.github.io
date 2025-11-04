@@ -32,7 +32,7 @@
         {
             "id" : 5,
             "title" : "Projektmunka",
-            "technologiak" : ["GitHub", "Visual Studio Code", "Google Space", "Trello"],
+            "technologiak" : ["Git", "GitHub", "Visual Studio Code", "Google Space", "Trello"],
             "targyak" : ["Szoftverprojektek", "Webkliens projektmunka"]
         }
     ],
